@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- My css -->
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
+    <link rel="shortcut icon" href="<?= base_url('assets/img/favicon.jpg'); ?>" type="image/x-icon">
     <title><?= $judul ?></title>
 </head>
 
@@ -25,6 +26,7 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="<?= base_url(); ?>">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="<?= base_url() ?>mahasiswa">Mahasiswa</a>
+                    <a class="nav-item nav-link" href="<?= base_url() ?>peoples">Peoples</a>
                     <a class="nav-item nav-link" href="#">About</a>
                 </div>
             </div>
