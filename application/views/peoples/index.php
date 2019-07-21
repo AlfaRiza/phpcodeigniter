@@ -25,6 +25,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <!-- kondisi -->
                     <?php
                     if (empty($peoples)) : ?>
                         <tr>
